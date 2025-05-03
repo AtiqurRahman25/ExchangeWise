@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: #ffffff; /* Pure white background */
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #2e7d32; /* Nice green */
+}
+
+.nav-link {
+    color: #555;
+}
+
+.nav-link:hover {
+    color: #2e7d32;
+}
+
+.hero {
+    background-color: #f8f9fa; /* Light gray-white */
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #2e7d32;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1b5e20;
+}
+
+.btn-outline-primary {
+    color: #2e7d32;
+    border-color: #2e7d32;
+}
+
+.btn-outline-primary:hover {
+    background-color: #2e7d32;
+    color: white;
+}
+
+/* Get Started Button */
+.get-started-btn {
+    background-color: #059216;
+    border-radius: 20px;
+    padding: 8px 13px;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #04710f;
+}
+
+footer {
+    background-color: #fff;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    padding-top: 150px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+}
+
+.role-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #2e7d32;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.role-buttons button:hover {
+    background-color: #1b5e20;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
