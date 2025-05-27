@@ -97,9 +97,10 @@
         text-align: center;
       }
     }
-    img{
+
+    img {
       height: 300px;
-      width: 300px
+      width: 300px;
     }
   </style>
 </head>
@@ -112,10 +113,11 @@
     </div>
     <div class="form-side">
       <h3>Admin Login</h3>
-      <form action="#" method="post">
+      <!-- ✅ UPDATED ACTION -->
+      <form action="admin-login.php" method="post">
         <div class="mb-3">
-          <label for="adminEmail" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="adminEmail" name="email" placeholder="admin@example.com" required>
+          <label for="adminEmail" class="form-label">User Name / Email address</label>
+          <input type="email" class="form-control" id="adminEmail" name="email" placeholder="Fahmida / admin@example.com" required>
         </div>
         <div class="mb-3">
           <label for="adminPassword" class="form-label">Password</label>
